@@ -93,7 +93,7 @@ npx serve .
 - **Email**: [manharakshat@gmail.com](mailto:manharakshat@gmail.com)
 - **LinkedIn**: [linkedin.com/in/akshat-manhar](https://linkedin.com/in/akshat-manhar)
 - **GitHub**: [github.com/akm1305](https://github.com/akm1305)
-- **Location**: Bhopal, MP, India
+- **Location**: Gurugram, Haryana, India
 
 ---
 *Created with passion by Akshat Manhar.*
