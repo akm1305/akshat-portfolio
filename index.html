@@ -1,0 +1,981 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Akshat Manhar | Portfolio | Data Analyst & BI Developer</title>
+  <!-- Meta tags for SEO -->
+  <meta name="description"
+    content="Portfolio of Akshat Manhar - BCA Data Science student, Data Analyst, and BI Developer. Specializing in transforming data into actionable insights, dashboards, and responsive web design.">
+  <meta name="keywords"
+    content="Akshat Manhar, Data Analyst, BI Developer, Python, Pandas, Tableau, SQL, Portfolio, Data Science">
+  <meta name="author" content="Akshat Manhar">
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Outfit:wght@300;400;500;600;700;800&display=swap"
+    rel="stylesheet">
+
+  <!-- RemixIcon for modern minimalist icons -->
+  <link href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css" rel="stylesheet">
+
+  <!-- AOS (Animate On Scroll) CSS -->
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+  <!-- Core Stylesheet -->
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <!-- Background Glowing Blobs -->
+  <div class="blob blob-1"></div>
+  <div class="blob blob-2"></div>
+  <div class="blob blob-3"></div>
+
+  <!-- Navigation Bar -->
+  <header class="navbar-header" id="navbar">
+    <div class="nav-container">
+      <a href="#home" class="nav-logo">
+        <span class="gradient-text">AM</span>
+      </a>
+
+      <!-- Desktop Navigation Links -->
+      <nav class="nav-links-container">
+        <ul class="nav-menu">
+          <li><a href="#home" class="nav-link active">Home</a></li>
+          <li><a href="#about" class="nav-link">About</a></li>
+          <li><a href="#skills" class="nav-link">Skills</a></li>
+          <li><a href="#experience" class="nav-link">Experience</a></li>
+          <li><a href="#projects" class="nav-link">Projects</a></li>
+          <li><a href="#certifications" class="nav-link">Certifications</a></li>
+          <li><a href="#blog" class="nav-link">Blog</a></li>
+          <li><a href="#contact" class="nav-link">Contact</a></li>
+        </ul>
+      </nav>
+
+      <!-- Action Button -->
+      <div class="nav-action-btn">
+        <a href="assets/resume.pdf" class="btn btn-outline btn-sm" id="nav-resume-btn"
+          download="Akshat_Manhar_Resume.pdf">
+          <i class="ri-file-download-line"></i> Resume
+        </a>
+      </div>
+
+      <!-- Mobile Hamburger Button -->
+      <button class="hamburger-menu-btn" id="mobile-menu-toggle" aria-label="Toggle Menu">
+        <span class="hamburger-bar"></span>
+        <span class="hamburger-bar"></span>
+        <span class="hamburger-bar"></span>
+      </button>
+    </div>
+  </header>
+
+  <!-- Mobile Drawer Menu -->
+  <div class="mobile-drawer" id="mobile-drawer">
+    <ul class="mobile-nav-menu">
+      <li><a href="#home" class="mobile-nav-link">Home</a></li>
+      <li><a href="#about" class="mobile-nav-link">About</a></li>
+      <li><a href="#skills" class="mobile-nav-link">Skills</a></li>
+      <li><a href="#experience" class="mobile-nav-link">Experience</a></li>
+      <li><a href="#projects" class="mobile-nav-link">Projects</a></li>
+      <li><a href="#certifications" class="mobile-nav-link">Certifications</a></li>
+      <li><a href="#blog" class="mobile-nav-link">Blog</a></li>
+      <li><a href="#contact" class="mobile-nav-link">Contact</a></li>
+      <li>
+        <a href="assets/resume.pdf" class="btn btn-primary btn-sm mobile-resume-btn"
+          download="Akshat_Manhar_Resume.pdf">
+          <i class="ri-file-download-line"></i> Download Resume
+        </a>
+      </li>
+    </ul>
+  </div>
+
+  <!-- Main Content Layout -->
+  <main>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero-section">
+      <div class="hero-container container">
+        <div class="hero-content" data-aos="fade-right" data-aos-duration="1000">
+          <span class="hero-badge">Welcome to my Portfolio</span>
+          <h1 class="hero-title">
+            Hi, I'm <span class="gradient-text">Akshat Manhar</span>
+          </h1>
+          <h2 class="hero-subtitle">Transforming Data into Actionable Insights</h2>
+
+          <!-- Typing Animation Container -->
+          <div class="typing-container">
+            <span class="typing-prefix">I am a </span>
+            <span class="typing-text" id="typing-text"></span>
+            <span class="typing-cursor">|</span>
+          </div>
+
+          <p class="hero-description">
+            BCA Data Science student specializing in Analytics, Business Intelligence dashboard design, and development
+            solutions. Bridging the gap between raw datasets and strategic decision making.
+          </p>
+
+          <div class="hero-cta-buttons">
+            <a href="assets/resume.pdf" class="btn btn-primary" id="hero-resume-btn"
+              download="Akshat_Manhar_Resume.pdf">
+              <i class="ri-download-cloud-2-line"></i> Download Resume
+            </a>
+            <a href="#projects" class="btn btn-outline">
+              <i class="ri-eye-line"></i> View Projects
+            </a>
+            <a href="#contact" class="btn btn-text">
+              Contact Me <i class="ri-arrow-right-line"></i>
+            </a>
+          </div>
+        </div>
+
+        <div class="hero-avatar-wrapper" data-aos="fade-left" data-aos-duration="1000">
+          <div class="avatar-glow-ring"></div>
+          <div class="avatar-card">
+            <img src="assets/profile.jpg" alt="Akshat Manhar Profile Picture" class="avatar-img">
+            <div class="avatar-badge avatar-badge-1">
+              <i class="ri-bar-chart-box-line"></i>
+              <span>BI Dev</span>
+            </div>
+            <div class="avatar-badge avatar-badge-2">
+              <i class="ri-braces-line"></i>
+              <span>Python</span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="scroll-down-indicator">
+        <a href="#about" aria-label="Scroll Down">
+          <span class="mouse-icon"><span class="mouse-wheel"></span></span>
+        </a>
+      </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about-section section-padding">
+      <div class="container">
+        <div class="section-header" data-aos="fade-up">
+          <h2 class="section-title">About <span class="gradient-text">Me</span></h2>
+          <p class="section-subtitle">My educational background, statistics, and career objectives</p>
+        </div>
+
+        <div class="about-grid">
+          <!-- Text Info -->
+          <div class="about-details" data-aos="fade-right" data-aos-delay="100">
+            <h3 class="about-info-title">BCA (Data Science) Student</h3>
+            <p class="about-institution"><i class="ri-graduation-cap-line"></i> Jagran Lakecity University</p>
+            <p class="about-graduation"><i class="ri-calendar-todo-line"></i> Expected Graduation: <strong>2026</strong>
+            </p>
+
+            <h4 class="about-subtitle-heading">Career Objective</h4>
+            <p class="about-text">
+              Aspiring Data Analyst and Business Intelligence professional dedicated to extracting deep, actionable
+              insights from complex datasets. Leveraging a rigorous academic foundation in BCA Data Science along with
+              professional experiences, I build dashboards, reporting systems, and analytical pipelines that drive
+              organizational efficiency and enable data-driven strategy.
+            </p>
+
+            <div class="about-focus-tags">
+              <span class="focus-tag"><i class="ri-pie-chart-line"></i> Data Analytics</span>
+              <span class="focus-tag"><i class="ri-dashboard-3-line"></i> Business Intelligence</span>
+              <span class="focus-tag"><i class="ri-database-line"></i> SQL & Databases</span>
+              <span class="focus-tag"><i class="ri-computer-line"></i> UI/UX Design</span>
+            </div>
+          </div>
+
+          <!-- Statistics Grid -->
+          <div class="about-stats-grid" data-aos="fade-left" data-aos-delay="200">
+            <!-- Card 1: Projects -->
+            <div class="stat-card glass-card">
+              <div class="stat-icon-box">
+                <i class="ri-lightbulb-line"></i>
+              </div>
+              <div class="stat-number" data-target="5">0</div>
+              <div class="stat-label">Projects Completed</div>
+            </div>
+
+            <!-- Card 2: Technologies -->
+            <div class="stat-card glass-card">
+              <div class="stat-icon-box">
+                <i class="ri-code-box-line"></i>
+              </div>
+              <div class="stat-number" data-target="10">0</div>
+              <div class="stat-label">Technologies Mastered</div>
+            </div>
+
+            <!-- Card 3: Certifications -->
+            <div class="stat-card glass-card">
+              <div class="stat-icon-box">
+                <i class="ri-award-line"></i>
+              </div>
+              <div class="stat-number" data-target="9">0</div>
+              <div class="stat-label">Certifications Earned</div>
+            </div>
+
+            <!-- Card 4: Professional Experience -->
+            <div class="stat-card glass-card">
+              <div class="stat-icon-box">
+                <i class="ri-briefcase-line"></i>
+              </div>
+              <div class="stat-number" data-target="3">0</div>
+              <div class="stat-label">Professional Roles</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills-section section-padding">
+      <div class="container">
+        <div class="section-header" data-aos="fade-up">
+          <h2 class="section-title">Skills <span class="gradient-text">Dashboard</span></h2>
+          <p class="section-subtitle">Proficiencies and tools categorized by field with interactive progression metrics
+          </p>
+        </div>
+
+        <div class="skills-grid">
+          <!-- Skill Category: Analytics -->
+          <div class="skills-category-card glass-card" data-aos="fade-up" data-aos-delay="100">
+            <div class="category-header">
+              <i class="ri-bar-chart-grouped-line category-icon"></i>
+              <h3>Analytics</h3>
+            </div>
+            <div class="skills-list">
+              <!-- Skill Python -->
+              <div class="skill-item">
+                <div class="skill-info">
+                  <span class="skill-name">Python</span>
+                  <span class="skill-percentage">90%</span>
+                </div>
+                <div class="progress-bar-bg">
+                  <div class="progress-bar-fill" data-progress="90%"></div>
+                </div>
+              </div>
+              <!-- Skill Pandas -->
+              <div class="skill-item">
+                <div class="skill-info">
+                  <span class="skill-name">Pandas</span>
+                  <span class="skill-percentage">85%</span>
+                </div>
+                <div class="progress-bar-bg">
+                  <div class="progress-bar-fill" data-progress="85%"></div>
+                </div>
+              </div>
+              <!-- Skill NumPy -->
+              <div class="skill-item">
+                <div class="skill-info">
+                  <span class="skill-name">NumPy</span>
+                  <span class="skill-percentage">80%</span>
+                </div>
+                <div class="progress-bar-bg">
+                  <div class="progress-bar-fill" data-progress="80%"></div>
+                </div>
+              </div>
+              <!-- Skill Matplotlib -->
+              <div class="skill-item">
+                <div class="skill-info">
+                  <span class="skill-name">Matplotlib</span>
+                  <span class="skill-percentage">75%</span>
+                </div>
+                <div class="progress-bar-bg">
+                  <div class="progress-bar-fill" data-progress="75%"></div>
+                </div>
+              </div>
+              <!-- Skill EDA -->
+              <div class="skill-item">
+                <div class="skill-info">
+                  <span class="skill-name">EDA (Exploratory Data Analysis)</span>
+                  <span class="skill-percentage">85%</span>
+                </div>
+                <div class="progress-bar-bg">
+                  <div class="progress-bar-fill" data-progress="85%"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Skill Category: Databases -->
+          <div class="skills-category-card glass-card" data-aos="fade-up" data-aos-delay="200">
+            <div class="category-header">
+              <i class="ri-database-2-line category-icon"></i>
+              <h3>Databases</h3>
+            </div>
+            <div class="skills-list">
+              <!-- Skill MySQL -->
+              <div class="skill-item">
+                <div class="skill-info">
+                  <span class="skill-name">MySQL</span>
+                  <span class="skill-percentage">80%</span>
+                </div>
+                <div class="progress-bar-bg">
+                  <div class="progress-bar-fill" data-progress="80%"></div>
+                </div>
+              </div>
+              <!-- Skill MongoDB -->
+              <div class="skill-item">
+                <div class="skill-info">
+                  <span class="skill-name">MongoDB</span>
+                  <span class="skill-percentage">70%</span>
+                </div>
+                <div class="progress-bar-bg">
+                  <div class="progress-bar-fill" data-progress="70%"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Skill Category: Business Intelligence -->
+          <div class="skills-category-card glass-card" data-aos="fade-up" data-aos-delay="300">
+            <div class="category-header">
+              <i class="ri-line-chart-line category-icon"></i>
+              <h3>Business Intelligence</h3>
+            </div>
+            <div class="skills-list">
+              <!-- Skill Excel -->
+              <div class="skill-item">
+                <div class="skill-info">
+                  <span class="skill-name">Excel (Advanced)</span>
+                  <span class="skill-percentage">85%</span>
+                </div>
+                <div class="progress-bar-bg">
+                  <div class="progress-bar-fill" data-progress="85%"></div>
+                </div>
+              </div>
+              <!-- Skill Reporting -->
+              <div class="skill-item">
+                <div class="skill-info">
+                  <span class="skill-name">Reporting</span>
+                  <span class="skill-percentage">80%</span>
+                </div>
+                <div class="progress-bar-bg">
+                  <div class="progress-bar-fill" data-progress="80%"></div>
+                </div>
+              </div>
+              <!-- Skill Dashboarding -->
+              <div class="skill-item">
+                <div class="skill-info">
+                  <span class="skill-name">Dashboarding</span>
+                  <span class="skill-percentage">85%</span>
+                </div>
+                <div class="progress-bar-bg">
+                  <div class="progress-bar-fill" data-progress="85%"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Skill Category: Development -->
+          <div class="skills-category-card glass-card" data-aos="fade-up" data-aos-delay="400">
+            <div class="category-header">
+              <i class="ri-code-box-line category-icon"></i>
+              <h3>Development</h3>
+            </div>
+            <div class="skills-list">
+              <!-- Skill HTML/CSS/JS -->
+              <div class="skill-item">
+                <div class="skill-info">
+                  <span class="skill-name">HTML / CSS / JavaScript</span>
+                  <span class="skill-percentage">75%</span>
+                </div>
+                <div class="progress-bar-bg">
+                  <div class="progress-bar-fill" data-progress="75%"></div>
+                </div>
+              </div>
+              <!-- Skill Flutter -->
+              <div class="skill-item">
+                <div class="skill-info">
+                  <span class="skill-name">Flutter (Mobile App)</span>
+                  <span class="skill-percentage">70%</span>
+                </div>
+                <div class="progress-bar-bg">
+                  <div class="progress-bar-fill" data-progress="70%"></div>
+                </div>
+              </div>
+              <!-- Skill .NET -->
+              <div class="skill-item">
+                <div class="skill-info">
+                  <span class="skill-name">.NET Framework</span>
+                  <span class="skill-percentage">60%</span>
+                </div>
+                <div class="progress-bar-bg">
+                  <div class="progress-bar-fill" data-progress="60%"></div>
+                </div>
+              </div>
+              <!-- Skill Tkinter -->
+              <div class="skill-item">
+                <div class="skill-info">
+                  <span class="skill-name">Tkinter (Python GUI)</span>
+                  <span class="skill-percentage">80%</span>
+                </div>
+                <div class="progress-bar-bg">
+                  <div class="progress-bar-fill" data-progress="80%"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Experience Timeline Section -->
+    <section id="experience" class="experience-section section-padding">
+      <div class="container">
+        <div class="section-header" data-aos="fade-up">
+          <h2 class="section-title">Experience <span class="gradient-text">Timeline</span></h2>
+          <p class="section-subtitle">My professional journey in Data Science, Analysis, and UI Design</p>
+        </div>
+
+        <div class="timeline-container">
+          <!-- Timeline Item 1 -->
+          <div class="timeline-item" data-aos="fade-right">
+            <div class="timeline-dot">
+              <i class="ri-briefcase-line"></i>
+            </div>
+            <div class="timeline-content glass-card">
+              <div class="timeline-header">
+                <span class="timeline-company">IGT Solutions</span>
+                <span class="timeline-date">Dec 2024 - May 2025</span>
+              </div>
+              <h3 class="timeline-role">Data Analyst</h3>
+              <ul class="timeline-tasks">
+                <li><i class="ri-checkbox-circle-fill"></i> Executed end-to-end data cleaning pipelines and structural
+                  mapping on raw database extracts.</li>
+                <li><i class="ri-checkbox-circle-fill"></i> Streamlined organizational reporting mechanisms and
+                  scheduled performance logs.</li>
+                <li><i class="ri-checkbox-circle-fill"></i> Generated core business insights that improved management
+                  operational cycles.</li>
+              </ul>
+            </div>
+          </div>
+
+          <!-- Timeline Item 2 -->
+          <div class="timeline-item" data-aos="fade-left">
+            <div class="timeline-dot">
+              <i class="ri-palette-line"></i>
+            </div>
+            <div class="timeline-content glass-card">
+              <div class="timeline-header">
+                <span class="timeline-company">Tax Pillars</span>
+                <span class="timeline-date">Freelance</span>
+              </div>
+              <h3 class="timeline-role">Web Designer</h3>
+              <ul class="timeline-tasks">
+                <li><i class="ri-checkbox-circle-fill"></i> Crafted highly responsive and aesthetic UI designs optimized
+                  for multiple viewport constraints.</li>
+                <li><i class="ri-checkbox-circle-fill"></i> Maintained the site architecture and ensured fast, optimal
+                  web performance metrics.</li>
+              </ul>
+            </div>
+          </div>
+
+          <!-- Timeline Item 3 -->
+          <div class="timeline-item" data-aos="fade-right">
+            <div class="timeline-dot">
+              <i class="ri-line-chart-line"></i>
+            </div>
+            <div class="timeline-content glass-card">
+              <div class="timeline-header">
+                <span class="timeline-company">Unified Mentor</span>
+                <span class="timeline-date">Internship</span>
+              </div>
+              <h3 class="timeline-role">Data Analyst</h3>
+              <ul class="timeline-tasks">
+                <li><i class="ri-checkbox-circle-fill"></i> Created interactive data visualizations and BI solutions
+                  using various plotting libraries and Excel dashboard setups.</li>
+                <li><i class="ri-checkbox-circle-fill"></i> Designed operational dashboards to track project workflows
+                  and data patterns.</li>
+                <li><i class="ri-checkbox-circle-fill"></i> Compiled performance reports summarizing complex data
+                  insights for non-technical clients.</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects-section section-padding">
+      <div class="container">
+        <div class="section-header" data-aos="fade-up">
+          <h2 class="section-title">Featured <span class="gradient-text">Projects</span></h2>
+          <p class="section-subtitle">Real-world applications and deep analytical solutions I have created</p>
+        </div>
+
+        <!-- Project Category Filters -->
+        <div class="project-filters" data-aos="fade-up" data-aos-delay="100">
+          <button class="filter-btn active" data-filter="all">All</button>
+          <button class="filter-btn" data-filter="analytics">Data Analytics / BI</button>
+          <button class="filter-btn" data-filter="dev">Development / GUI</button>
+        </div>
+
+        <!-- Project Grid -->
+        <div class="project-grid">
+
+          <!-- Project 1: Netflix Viewing Activity Analysis -->
+          <div class="project-card glass-card" data-category="analytics" data-aos="fade-up" data-aos-delay="100">
+            <div class="project-cover-gradient cover-netflix">
+              <i class="ri-bar-chart-2-line project-placeholder-icon"></i>
+            </div>
+            <div class="project-info">
+              <div class="project-tags">
+                <span class="project-tag-item">Python</span>
+                <span class="project-tag-item">Pandas</span>
+                <span class="project-tag-item">NumPy</span>
+                <span class="project-tag-item">Matplotlib</span>
+              </div>
+              <h3 class="project-title">Netflix Viewing Activity Analysis</h3>
+              <p class="project-text">
+                An exploratory analysis into user profile data extracted from Netflix, outlining peak viewing times,
+                device distribution, active watch duration, and title word frequency.
+              </p>
+              <div class="project-actions">
+                <a href="https://github.com/akshat-manhar" target="_blank" class="btn btn-outline btn-sm">
+                  <i class="ri-github-fill"></i> GitHub
+                </a>
+                <button class="btn btn-primary btn-sm live-demo-btn" data-project="Netflix Viewing Activity Analysis">
+                  <i class="ri-external-link-line"></i> Live Demo
+                </button>
+              </div>
+            </div>
+          </div>
+
+          <!-- Project 2: Customer Engagement Analysis -->
+          <div class="project-card glass-card" data-category="analytics" data-aos="fade-up" data-aos-delay="200">
+            <div class="project-cover-gradient cover-customer">
+              <i class="ri-pie-chart-2-line project-placeholder-icon"></i>
+            </div>
+            <div class="project-info">
+              <div class="project-tags">
+                <span class="project-tag-item">Python</span>
+                <span class="project-tag-item">Excel</span>
+                <span class="project-tag-item">Pandas</span>
+                <span class="project-tag-item">BI</span>
+              </div>
+              <h3 class="project-title">Customer Engagement Analysis</h3>
+              <p class="project-text">
+                Analyzing cohorts and interaction points of digital consumers. Designed reporting spreadsheets
+                highlighting KPIs, cohort tables, retention, and engagement curves.
+              </p>
+              <div class="project-actions">
+                <a href="https://github.com/akshat-manhar" target="_blank" class="btn btn-outline btn-sm">
+                  <i class="ri-github-fill"></i> GitHub
+                </a>
+                <button class="btn btn-primary btn-sm live-demo-btn" data-project="Customer Engagement Analysis">
+                  <i class="ri-external-link-line"></i> Live Demo
+                </button>
+              </div>
+            </div>
+          </div>
+
+          <!-- Project 3: Hotel Management System -->
+          <div class="project-card glass-card" data-category="dev" data-aos="fade-up" data-aos-delay="300">
+            <div class="project-cover-gradient cover-hotel">
+              <i class="ri-hotel-line project-placeholder-icon"></i>
+            </div>
+            <div class="project-info">
+              <div class="project-tags">
+                <span class="project-tag-item">Python</span>
+                <span class="project-tag-item">Tkinter</span>
+                <span class="project-tag-item">GUI</span>
+              </div>
+              <h3 class="project-title">Hotel Management System</h3>
+              <p class="project-text">
+                A desktop-based administration portal handling room allocation, guest registration, invoice creation,
+                and availability logs with a sleek custom Tkinter UI.
+              </p>
+              <div class="project-actions">
+                <a href="https://github.com/akshat-manhar" target="_blank" class="btn btn-outline btn-sm">
+                  <i class="ri-github-fill"></i> GitHub
+                </a>
+                <button class="btn btn-primary btn-sm live-demo-btn" data-project="Hotel Management System">
+                  <i class="ri-external-link-line"></i> Live Demo
+                </button>
+              </div>
+            </div>
+          </div>
+
+          <!-- Project 4: Anonymous Chatroom Application -->
+          <div class="project-card glass-card" data-category="dev" data-aos="fade-up" data-aos-delay="400">
+            <div class="project-cover-gradient cover-chat">
+              <i class="ri-chat-voice-line project-placeholder-icon"></i>
+            </div>
+            <div class="project-info">
+              <div class="project-tags">
+                <span class="project-tag-item">Node.js</span>
+                <span class="project-tag-item">MongoDB</span>
+                <span class="project-tag-item">JavaScript</span>
+              </div>
+              <h3 class="project-title">Anonymous Chatroom Application</h3>
+              <p class="project-text">
+                Real-time web chatrooms featuring instant message delivery, server-side room mapping, message caching
+                with MongoDB, and an interactive UI.
+              </p>
+              <div class="project-actions">
+                <a href="https://github.com/akshat-manhar" target="_blank" class="btn btn-outline btn-sm">
+                  <i class="ri-github-fill"></i> GitHub
+                </a>
+                <button class="btn btn-primary btn-sm live-demo-btn" data-project="Anonymous Chatroom Application">
+                  <i class="ri-external-link-line"></i> Live Demo
+                </button>
+              </div>
+            </div>
+          </div>
+
+          <!-- Project 5: Spain Songs Analysis -->
+          <div class="project-card glass-card" data-category="analytics" data-aos="fade-up" data-aos-delay="500">
+            <div class="project-cover-gradient cover-songs">
+              <i class="ri-music-2-line project-placeholder-icon"></i>
+            </div>
+            <div class="project-info">
+              <div class="project-tags">
+                <span class="project-tag-item">Python</span>
+                <span class="project-tag-item">Pandas</span>
+                <span class="project-tag-item">Visualization</span>
+              </div>
+              <h3 class="project-title">Spain Songs Analysis</h3>
+              <p class="project-text">
+                An analysis examining top charting songs in Spain: evaluating parameters like popularity index, bpm
+                clustering, musical genres, and artist contributions.
+              </p>
+              <div class="project-actions">
+                <a href="https://github.com/akshat-manhar" target="_blank" class="btn btn-outline btn-sm">
+                  <i class="ri-github-fill"></i> GitHub
+                </a>
+                <button class="btn btn-primary btn-sm live-demo-btn" data-project="Spain Songs Analysis">
+                  <i class="ri-external-link-line"></i> Live Demo
+                </button>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- Certifications Section -->
+    <section id="certifications" class="certifications-section section-padding">
+      <div class="container">
+        <div class="section-header" data-aos="fade-up">
+          <h2 class="section-title">Certifications & <span class="gradient-text">Badges</span></h2>
+          <p class="section-subtitle">Credentials and specialized academic milestones achieved</p>
+        </div>
+
+        <div class="certifications-grid">
+          <!-- Cert 1 -->
+          <div class="cert-card glass-card" data-aos="zoom-in" data-aos-delay="50">
+            <div class="cert-icon-badge">
+              <i class="ri-microsoft-line"></i>
+            </div>
+            <h3 class="cert-title">Microsoft Office 365</h3>
+            <span class="cert-org">Microsoft</span>
+            <span class="cert-date">Issued: 2023</span>
+          </div>
+
+          <!-- Cert 2 -->
+          <div class="cert-card glass-card" data-aos="zoom-in" data-aos-delay="100">
+            <div class="cert-icon-badge">
+              <i class="ri-award-line"></i>
+            </div>
+            <h3 class="cert-title">Principles of Management</h3>
+            <span class="cert-org">Johns Hopkins University</span>
+            <span class="cert-date">Issued: 2023</span>
+          </div>
+
+          <!-- Cert 3 -->
+          <div class="cert-card glass-card" data-aos="zoom-in" data-aos-delay="150">
+            <div class="cert-icon-badge">
+              <i class="ri-palette-line"></i>
+            </div>
+            <h3 class="cert-title">Canva Course</h3>
+            <span class="cert-org">Google / Coursera</span>
+            <span class="cert-date">Issued: 2024</span>
+          </div>
+
+          <!-- Cert 4 -->
+          <div class="cert-card glass-card" data-aos="zoom-in" data-aos-delay="200">
+            <div class="cert-icon-badge">
+              <i class="ri-global-line"></i>
+            </div>
+            <h3 class="cert-title">Basics of Cisco Networking</h3>
+            <span class="cert-org">Cisco Networking Academy</span>
+            <span class="cert-date">Issued: 2024</span>
+          </div>
+
+          <!-- Cert 5 -->
+          <div class="cert-card glass-card" data-aos="zoom-in" data-aos-delay="250">
+            <div class="cert-icon-badge">
+              <i class="ri-vector-line"></i>
+            </div>
+            <h3 class="cert-title">Fundamentals of Graphic Design</h3>
+            <span class="cert-org">JLU Academy</span>
+            <span class="cert-date">Issued: 2024</span>
+          </div>
+
+          <!-- Cert 6 -->
+          <div class="cert-card glass-card" data-aos="zoom-in" data-aos-delay="400">
+            <div class="cert-icon-badge">
+              <i class="ri-folders-line"></i>
+            </div>
+            <h3 class="cert-title">Software Project Management</h3>
+            <span class="cert-org">NPTEL</span>
+            <span class="cert-date">Issued: 2025</span>
+          </div>
+
+          <!-- Cert 7 -->
+          <div class="cert-card glass-card" data-aos="zoom-in" data-aos-delay="450">
+            <div class="cert-icon-badge">
+              <i class="ri-terminal-box-line"></i>
+            </div>
+            <h3 class="cert-title">Python Certification</h3>
+            <span class="cert-org">Scaler Academy</span>
+            <span class="cert-date">Issued: 2025</span>
+          </div>
+
+          <!-- Cert 8 -->
+          <div class="cert-card glass-card" data-aos="zoom-in" data-aos-delay="300">
+            <div class="cert-icon-badge">
+              <i class="ri-user-settings-line"></i>
+            </div>
+            <h3 class="cert-title">Human Computer Interaction</h3>
+            <span class="cert-org">NPTEL</span>
+            <span class="cert-date">Issued: 2026</span>
+          </div>
+
+          <!-- Cert 9 -->
+          <div class="cert-card glass-card" data-aos="zoom-in" data-aos-delay="350">
+            <div class="cert-icon-badge">
+              <i class="ri-computer-line"></i>
+            </div>
+            <h3 class="cert-title">Computer Application in Business</h3>
+            <span class="cert-org">Swayam</span>
+            <span class="cert-date">Issued: 2026</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Blog Section -->
+    <section id="blog" class="blog-section section-padding">
+      <div class="container">
+        <div class="section-header" data-aos="fade-up">
+          <h2 class="section-title">My <span class="gradient-text">Blog</span></h2>
+          <p class="section-subtitle">Read my articles, updates, and research logs on Data Analysis and Python</p>
+        </div>
+
+        <div class="blog-grid">
+          <!-- Blog Card 1 -->
+          <article class="blog-card glass-card" data-aos="fade-up" data-aos-delay="100">
+            <div class="blog-meta">
+              <span class="blog-category">Analytics</span>
+              <span class="blog-read-time"><i class="ri-time-line"></i> 5 min read</span>
+            </div>
+            <h3 class="blog-card-title">Data Analysis Tips for Beginners</h3>
+            <p class="blog-card-text">
+              Effective shortcuts for data cleaning, workflow optimization, and exploratory data analysis using Pandas,
+              highlighting methods to deal with outliers and missing fields.
+            </p>
+            <button class="blog-read-more" data-blog="Data Analysis Tips">
+              Read Article <i class="ri-arrow-right-up-line"></i>
+            </button>
+          </article>
+
+          <!-- Blog Card 2 -->
+          <article class="blog-card glass-card" data-aos="fade-up" data-aos-delay="200">
+            <div class="blog-meta">
+              <span class="blog-category">Programming</span>
+              <span class="blog-read-time"><i class="ri-time-line"></i> 7 min read</span>
+            </div>
+            <h3 class="blog-card-title">Python Tutorials: Advanced Pandas</h3>
+            <p class="blog-card-text">
+              Going beyond simple read_csv statements: understanding indexes, multi-indexing, grouping aggregates, pivot
+              tables, and vectorizing data operations for faster execution.
+            </p>
+            <button class="blog-read-more" data-blog="Python Tutorials">
+              Read Article <i class="ri-arrow-right-up-line"></i>
+            </button>
+          </article>
+
+          <!-- Blog Card 3 -->
+          <article class="blog-card glass-card" data-aos="fade-up" data-aos-delay="300">
+            <div class="blog-meta">
+              <span class="blog-category">Databases</span>
+              <span class="blog-read-time"><i class="ri-time-line"></i> 4 min read</span>
+            </div>
+            <h3 class="blog-card-title">SQL Concepts Every BI Developer Needs</h3>
+            <p class="blog-card-text">
+              A checklist of vital SQL operations: Window functions, CTEs (Common Table Expressions), self joins, index
+              structuring, and query execution plans for optimized dashboards.
+            </p>
+            <button class="blog-read-more" data-blog="SQL Concepts">
+              Read Article <i class="ri-arrow-right-up-line"></i>
+            </button>
+          </article>
+
+          <!-- Blog Card 4 -->
+          <article class="blog-card glass-card" data-aos="fade-up" data-aos-delay="400">
+            <div class="blog-meta">
+              <span class="blog-category">Project Log</span>
+              <span class="blog-read-time"><i class="ri-time-line"></i> 8 min read</span>
+            </div>
+            <h3 class="blog-card-title">Project Development Logs</h3>
+            <p class="blog-card-text">
+              A comprehensive trace of building custom Tkinter structures and embedding Node.js socket layers,
+              documenting the software lifecycle, challenges, and solutions.
+            </p>
+            <button class="blog-read-more" data-blog="Project Development Logs">
+              Read Article <i class="ri-arrow-right-up-line"></i>
+            </button>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact-section section-padding">
+      <div class="container">
+        <div class="section-header" data-aos="fade-up">
+          <h2 class="section-title">Get in <span class="gradient-text">Touch</span></h2>
+          <p class="section-subtitle">Let's collaborate on data analytics, BI dashboarding, or web development projects
+          </p>
+        </div>
+
+        <div class="contact-grid">
+          <!-- Contact Details / Social links -->
+          <div class="contact-info-panel" data-aos="fade-right" data-aos-delay="100">
+            <h3 class="contact-panel-title">Let's discuss something great</h3>
+            <p class="contact-panel-text">
+              I'm open to freelance opportunities, internships, and collaborative data science projects. Connect with me
+              through any of the channels below!
+            </p>
+
+            <div class="contact-links-list">
+              <!-- Link: Email -->
+              <div class="contact-item-link">
+                <div class="contact-icon-circle">
+                  <i class="ri-mail-line"></i>
+                </div>
+                <div class="contact-link-details">
+                  <span class="contact-link-label">Email Me</span>
+                  <a href="mailto:manharakshat@gmail.com" class="contact-link-value">manharakshat@gmail.com</a>
+                </div>
+              </div>
+
+              <!-- Link: WhatsApp -->
+              <div class="contact-item-link">
+                <div class="contact-icon-circle">
+                  <i class="ri-whatsapp-line"></i>
+                </div>
+                <div class="contact-link-details">
+                  <span class="contact-link-label">WhatsApp</span>
+                  <a href="https://wa.me/910000000000" target="_blank" class="contact-link-value">Chat on WhatsApp</a>
+                </div>
+              </div>
+
+              <!-- Link: Location -->
+              <div class="contact-item-link">
+                <div class="contact-icon-circle">
+                  <i class="ri-map-pin-line"></i>
+                </div>
+                <div class="contact-link-details">
+                  <span class="contact-link-label">Location</span>
+                  <span class="contact-link-value">Bhopal, MP, India</span>
+                </div>
+              </div>
+            </div>
+
+            <!-- Social Links Grid -->
+            <div class="contact-social-icons">
+              <a href="https://github.com/akshat-manhar" target="_blank" class="social-circle-link" aria-label="GitHub">
+                <i class="ri-github-fill"></i>
+              </a>
+              <a href="https://linkedin.com/in/akshat-manhar" target="_blank" class="social-circle-link"
+                aria-label="LinkedIn">
+                <i class="ri-linkedin-box-fill"></i>
+              </a>
+              <a href="mailto:manharakshat@gmail.com" class="social-circle-link" aria-label="Email">
+                <i class="ri-mail-fill"></i>
+              </a>
+              <a href="https://wa.me/910000000000" target="_blank" class="social-circle-link" aria-label="WhatsApp">
+                <i class="ri-whatsapp-fill"></i>
+              </a>
+            </div>
+          </div>
+
+          <!-- Contact Form -->
+          <div class="contact-form-panel glass-card" data-aos="fade-left" data-aos-delay="200">
+            <form id="contact-form" class="contact-form">
+              <!-- Name Input -->
+              <div class="form-group">
+                <input type="text" id="form-name" class="form-input" required placeholder=" ">
+                <label for="form-name" class="form-label">Full Name</label>
+              </div>
+
+              <!-- Email Input -->
+              <div class="form-group">
+                <input type="email" id="form-email" class="form-input" required placeholder=" ">
+                <label for="form-email" class="form-label">Email Address</label>
+              </div>
+
+              <!-- Subject Input -->
+              <div class="form-group">
+                <input type="text" id="form-subject" class="form-input" required placeholder=" ">
+                <label for="form-subject" class="form-label">Subject</label>
+              </div>
+
+              <!-- Message Input -->
+              <div class="form-group">
+                <textarea id="form-message" class="form-input form-textarea" required placeholder=" "></textarea>
+                <label for="form-message" class="form-label">Your Message</label>
+              </div>
+
+              <button type="submit" class="btn btn-primary btn-block submit-form-btn">
+                Send Message <i class="ri-send-plane-fill"></i>
+              </button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- Footer -->
+  <footer class="main-footer">
+    <div class="container footer-content">
+      <p class="footer-copy">&copy; 2026 Akshat Manhar. All Rights Reserved.</p>
+      <p class="footer-designed">Designed & Developed with <i class="ri-heart-fill footer-heart"></i></p>
+    </div>
+  </footer>
+
+  <!-- Live Demo / Info Modal (Universal Glassmorphic Modal) -->
+  <div class="custom-modal-overlay" id="custom-modal">
+    <div class="custom-modal-container glass-card">
+      <button class="close-modal-btn" id="close-modal" aria-label="Close Modal">
+        <i class="ri-close-line"></i>
+      </button>
+      <div id="modal-content-area">
+        <!-- Dynmically loaded content from JS -->
+      </div>
+    </div>
+  </div>
+
+  <!-- AOS (Animate On Scroll) JS -->
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+  <!-- Canvas Confetti CDN -->
+  <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.6.0/dist/confetti.browser.min.js"></script>
+
+  <!-- Chart.js CDN for Interactive Project Demos -->
+  <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.1/dist/chart.umd.min.js"></script>
+
+  <!-- Core JavaScript -->
+  <script src="script.js"></script>
+
+</body>
+
+</html>
