@@ -1,6 +1,6 @@
 # 🚀 Akshat Manhar — Personal Portfolio & Interactive Data Analytics Showcase
 
-[![GitHub Pages](https://img.shields.io/badge/Hosted%20With-GitHub%20Pages-blue?style=for-the-badge&logo=github)](https://github.com/akshat-manhar)
+[![GitHub Pages](https://img.shields.io/badge/Hosted%20With-GitHub%20Pages-blue?style=for-the-badge&logo=github)](https://akm1305.github.io/akshat-portfolio/)
 [![Tech Stack](https://img.shields.io/badge/Tech-HTML5%20%7C%20CSS3%20%7C%20JavaScript%20%7C%20Chart.js-informational?style=for-the-badge)](https://developer.mozilla.org/)
 [![Status](https://img.shields.io/badge/Status-Live%20&%20Interactive-success?style=for-the-badge)]()
 
@@ -84,7 +84,7 @@ npx serve .
    - Select folder: `/(root)`
    - Click **Save**.
 5. Within 1–2 minutes, your website will be live at:
-   `https://<your-username>.github.io/<your-repo-name>/`
+   `https://akm1305.github.io/akshat-portfolio/`
 
 ---
 
@@ -92,7 +92,7 @@ npx serve .
 
 - **Email**: [manharakshat@gmail.com](mailto:manharakshat@gmail.com)
 - **LinkedIn**: [linkedin.com/in/akshat-manhar](https://linkedin.com/in/akshat-manhar)
-- **GitHub**: [github.com/akshat-manhar](https://github.com/akshat-manhar)
+- **GitHub**: [github.com/akm1305](https://github.com/akm1305)
 - **Location**: Bhopal, MP, India
 
 ---
